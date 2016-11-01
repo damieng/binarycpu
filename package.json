@@ -1,0 +1,14 @@
+{
+  "name": "binarycpu",
+  "version": "0.0.1",
+  "description": "Identify binary files and their processor architecture",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Guard",
+  "license": "MIT",
+  "bin": {
+    "binarycpu": "./src/index.js"
+  }
+}
