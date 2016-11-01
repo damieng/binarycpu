@@ -2,6 +2,7 @@
   "name": "binarycpu",
   "version": "0.0.1",
   "description": "Identify binary files and their processor architecture",
+  "repository": "https://github.com/damieng/binaryarch",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +11,13 @@
   "license": "MIT",
   "bin": {
     "binarycpu": "./src/index.js"
-  }
+  },
+  "keywords": [
+    "processor",
+    "architecture",
+    "x86",
+    "amd64",
+    "pe",
+    "portableexecutable"
+  ]
 }
