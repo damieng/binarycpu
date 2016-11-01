@@ -1,8 +1,8 @@
 {
   "name": "binarycpu",
-  "version": "0.0.2",
-  "description": "Identify binary files and their processor architecture",
-  "repository": "https://github.com/damieng/binaryarch",
+  "version": "0.0.3",
+  "description": "Identify binary files and their cpu/processor architecture",
+  "repository": "https://github.com/damieng/binarycpu",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
   },
   "keywords": [
     "processor",
+    "cpu",
     "architecture",
     "x86",
     "amd64",
