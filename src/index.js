@@ -11,7 +11,6 @@ if (process.argv.length > 2) {
   rootPath = '.'
 }
 
-const verbose = true
 scanDir(rootPath)
 
 function scanDir (p) {
