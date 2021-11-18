@@ -8,17 +8,21 @@ Identify the processor architecture of binary files.
 
 Simply install with `npm install -g binarycpu` and then call this with the path you wish to scan. e.g.
 
-`binarycpu c:\apps`
+```bash
+binarycpu c:\apps
+```
 
 And it will print out the file names of identified PE/MZ binary files with their appropriate cpu architecture (see table below).
 
 ### In your own code
 
-`const binarycpu = require('binarycpu')
+```javascript
+const binarycpu = require('binarycpu')
 
-const arch = binarycpu.determinePEArch(filename)`
+const arch = binarycpu.determinePEArch(filename)
+```
 
-null is returned if the file is not a MZ/PE file.  If the processor architecture is unknown it will return unknown as well as the hex identifier.
+`null` is returned if the file is not a MZ/PE file.  If the processor architecture is unknown it will return unknown as well as the hex identifier.
 
 ## Possible architectures
 
